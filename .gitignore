@@ -1,0 +1,29 @@
+# Secrets / local config — never commit
+.env
+.env.*
+!.env.example
+*.local.json
+!*.local.example.json
+config.local.*
+secrets.*
+*.pem
+*.key
+credentials*
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+
+# Node
+node_modules/
+npm-debug.log*
+
+# Build output / OS cruft
+dist/
+build/
+out/
+Thumbs.db
+.DS_Store
